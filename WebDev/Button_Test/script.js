@@ -5,6 +5,6 @@ let count = 1;
 
 button_1.onclick = () =>{
     button_1.textContent = "Try Again!";
-    heading_1.textContent = "${count} clicks so far";
+    heading_1.textContent = `${count} clicks so far`;
     count += 1;
-}
+};
