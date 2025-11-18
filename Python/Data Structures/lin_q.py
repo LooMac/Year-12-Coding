@@ -25,7 +25,7 @@ class PostOffice():
             print(f"\n{removed_customer.name} has been served and removed from the queue")
 
     def add_customer(self, given_customer: object):
-        #Procedure to enqueu new customer into the post
+        #Procedure to enqeue new customer into the post
         #office queue
         if not self.post_office_queue.full():
             self.post_office_queue.put(given_customer)
